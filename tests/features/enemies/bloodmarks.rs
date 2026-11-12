@@ -10,7 +10,7 @@ use terminal::ragdoll::{OwnedByCharacter, RagdollBodyPart};
 use terminal::shooting::{RangedWeapon, Weapon, WeaponFired};
 use terminal::state::GameState;
 
-use super::support;
+use super::super::support;
 
 fn build_map(player_position: Vec3) -> Map {
     let floor_size = Vec3::new(60.0, 0.1, 60.0);

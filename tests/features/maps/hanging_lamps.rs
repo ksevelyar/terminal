@@ -4,8 +4,8 @@ use std::time::Duration;
 use terminal::app::build_test_app;
 use terminal::maps::build_map01;
 
-use super::support;
-use super::support::{FIXED_TIMESTEP_SECONDS, find_named_body, shoot_entity};
+use super::super::support;
+use super::super::support::{FIXED_TIMESTEP_SECONDS, find_named_body, shoot_entity};
 
 struct SwingSample {
     horizontal_displacement: Vec2,
