@@ -2,7 +2,7 @@ use avian3d::prelude::*;
 use bevy::mesh::skinning::SkinnedMesh;
 use bevy::prelude::*;
 
-use super::support;
+use super::super::support;
 
 fn get_current_game_state(app: &mut App) -> GameState {
     app.world().resource::<State<GameState>>().get().clone()

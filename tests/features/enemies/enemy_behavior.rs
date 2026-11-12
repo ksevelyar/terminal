@@ -9,7 +9,7 @@ use terminal::player::Player;
 use terminal::shooting::{RangedWeapon, Weapon, WeaponFired};
 use terminal::state::GameState;
 
-use super::support::FIXED_TIMESTEP_SECONDS;
+use super::super::support::FIXED_TIMESTEP_SECONDS;
 
 const ENEMY_POSITION: Vec3 = Vec3::new(0.0, 0.05, 0.0);
 const HIDDEN_PLAYER_POSITION: Vec3 = Vec3::new(8.0, 0.05, 8.0);

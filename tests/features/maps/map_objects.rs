@@ -3,7 +3,7 @@ use std::time::Duration;
 use terminal::app::build_test_app;
 use terminal::maps::build_map01;
 
-use super::support::{FIXED_TIMESTEP_SECONDS, assert_settles, find_named_body, shoot_and_assert_kick_speed};
+use super::super::support::{FIXED_TIMESTEP_SECONDS, assert_settles, find_named_body, shoot_and_assert_kick_speed};
 
 fn create_map_test_app() -> App {
     let fixed_timestep = Duration::from_secs_f64(FIXED_TIMESTEP_SECONDS);
